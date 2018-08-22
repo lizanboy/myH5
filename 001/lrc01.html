@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>离人愁</title>
+     <style type="text/css">
+        body{
+            background-image: url(./images/lrc.jpg);
+            background-size: 100% 100%;
+            height:100%;
+        }
+         html{
+             height:100%;
+         }
+         @keyframes myfirst {
+             0% {opacity: 0}
+             25% {opacity: 100}
+             50% {opacity: 0}
+             100% {opacity: 0}
+         }
+        @keyframes mysecond {
+            0% {opacity: 0}
+            25% {opacity: 0}
+            75% {opacity: 100}
+            100% {opacity: 0}
+        }
+            p{
+             font-size: 50px;
+             position:absolute;
+             width: 100%;
+             text-align:center;
+            }
+            #chunqu{
+                animation: myfirst 100s infinite;
+        }
+            #zuoye{
+                animation: mysecond 100s infinite;
+        }
+    </style>
+</head>
+<body>
+<audio src="wav/lrc00.flac"  autoplay="autoplay">
+</audio>
+<p id="chunqu">春去白了华发落寞了思量,
+    剪下一缕愁丝遮目让人盲,
+    今人断了肠，今天各一方,
+    今生与你相见无望,
+    繁华落幕离人难敢诉衷肠.</p>
+<p id="zuoye">昨夜又见当年弃我不归郎
+                 今夜太漫长，今两股痒痒
+                 今人比枯叶瘦花黄
+                 我应在江湖悠悠，饮一壶浊酒</p>
+</body>
+</html>
